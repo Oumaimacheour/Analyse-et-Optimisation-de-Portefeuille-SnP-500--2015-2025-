@@ -65,27 +65,6 @@ Partie V   — Optimisation de portefeuille & Projection Monte Carlo
 
 <br>
 
-## Composition du portefeuille optimal (Max Sharpe)
-
-La frontière efficiente de Markowitz, construite sur 50 000 portefeuilles simulés, identifie l'allocation maximisant le ratio de Sharpe annualisé.
-
-```
-FICO    31.43%  ██████████████████████████████░
-ANET    21.14%  ████████████████████░
-TSLA    19.63%  ███████████████████░
-AVGO     8.18%  ████████░
-AXON     6.70%  ██████░
-TPL      3.96%  ████░
-FIX      2.84%  ███░
-NVDA     2.16%  ██░
-AMD      2.03%  ██░
-TTD      1.92%  ██░
-```
-
-> **Insight clé :** NVDA, meilleure action individuelle du panel, n'est allouée qu'à 2.16% dans le portefeuille optimal. Sa contribution marginale au risque du portefeuille dégrade l'efficience globale au-delà de ce seuil. FICO domine en tant qu'ancrage stabilisateur grâce à sa faible volatilité et sa décorrélation relative avec les autres actifs tech.
-
-<br>
-
 ## Visualisations produites
 
 - Répartition sectorielle des 503 constituants du S&P 500
